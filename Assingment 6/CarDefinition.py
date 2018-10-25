@@ -30,6 +30,12 @@ class Car:
     def getSpeed(self):
         return self.__speed
 
+    def accelerate(self):
+        self.__speed += 5
+
+    def brake(self):
+        self.__speed -= 5
+
     ############# str ############
     def __str__(self):
         return "Make : " + self.__make + ", Model Year :" + \

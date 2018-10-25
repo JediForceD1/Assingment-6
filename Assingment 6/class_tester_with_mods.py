@@ -11,9 +11,8 @@ def main():
     # Accelerate 5 times
     print ("car is accelerating: ")
     for i in range(5):
-        my_car.accelerate()
-        print ("Current speed: ", my_car.getSpeed())
-
+       my_car.accelerate()
+       print ("Current speed: ", my_car.getSpeed())
     print()
     # Brake 7 times
     print ("car is braking: ")
