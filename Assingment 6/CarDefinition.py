@@ -1,5 +1,6 @@
 class Car:
-    #my_car = CarDefinition.Car("2008", "Honda Accord")
+
+    
     
     def __init__(self, year_model, make):
         self.__year_model = year_model
