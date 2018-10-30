@@ -1,4 +1,10 @@
-import CarDefinition # <- change this line to point to your class definition file
+import CarDefinition
+
+'''
+Aaron McCormick
+Assingment 6
+10/30/2018
+'''
 
 def main():
 
