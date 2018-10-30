@@ -36,6 +36,10 @@ class Car:
 
     def brake(self):
         self.__speed -= 5
+        if self.__speed < 0:
+            print("Your speed cannot be negitive.")
+            self.__speed = 0
+
 
     ############# str ############
     def __str__(self):

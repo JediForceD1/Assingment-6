@@ -22,11 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CarDefinition.py" />
-    <Compile Include="run.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="class_tester.py" />
-    <Compile Include="class_tester_with_mods.py" />
+    <Compile Include="run.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
